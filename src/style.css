@@ -1,0 +1,44 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.active {
+    color: red;
+    text-decoration: none;
+}
+.inactive{
+    color: darkslategray;
+    text-decoration: none;
+}
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: yellow;
+}
+.card{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 100px 1fr;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 100vw;
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+p {
+    font-size: medium;
+    font-weight: bold;
+}
+ 
