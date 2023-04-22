@@ -45,13 +45,15 @@ const Personajes = () => {
                 <Card.Img variant="top" src={personaje.image} />
                 <Card.Body>
                     <Card.Text>
+                        <ul>
                         <p>Stats{" "}:</p>
-                        <p>Hp{" "}:{" "}{personaje.hp}</p>
-                        <p>Attack{" "}:{" "}{personaje.attack}</p>
-                        <p>Defence{" "}:{" "}{personaje.defence}</p>
-                        <p>Special Attack{" "}:{" "}{personaje.sAttack}</p>
-                        <p>Special Defence{" "}:{" "}{personaje.sDefence}</p>
-                        <p>Speed{" "}:{" "}{personaje.speed}</p>
+                        <li><p>Hp{" "}:{" "}{personaje.hp}</p></li>
+                        <li><p>Attack{" "}:{" "}{personaje.attack}</p></li>
+                        <li><p>Defence{" "}:{" "}{personaje.defence}</p></li>
+                        <li><p>Special Attack{" "}:{" "}{personaje.sAttack}</p></li>
+                        <li><p>Special Defence{" "}:{" "}{personaje.sDefence}</p></li>
+                        <li><p>Speed{" "}:{" "}{personaje.speed}</p></li>
+                        </ul>
                     </Card.Text>
 
                 </Card.Body>

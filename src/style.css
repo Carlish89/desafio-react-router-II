@@ -1,6 +1,7 @@
 .App {
     font-family: sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 .active {
@@ -40,5 +41,8 @@
 p {
     font-size: medium;
     font-weight: bold;
+}
+ul{
+    text-align: start;
 }
  
